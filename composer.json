@@ -1,7 +1,7 @@
 {
   "autoload" : {
     "psr-4" : {
-      "API\\" : "class/Module"
+      "API\\" : "lib/Module"
     }
   }
 }

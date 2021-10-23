@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'API\\' => array($baseDir . '/class/Module'),
+    'API\\' => array($baseDir . '/lib/Module'),
 );
