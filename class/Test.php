@@ -1,11 +1,12 @@
 <?php
-
+use API\Date;
 class Test
 {
     private $cleanstring;
     //run为自动执行函数，需设置public
     public function run()
     {
+        Date::test();
         $this->_get_data();
         $this->_check();
         $this->_start();
